@@ -16,7 +16,7 @@ DESC dept;
 INSERT INTO dept(deptno, deptname, office) VALUES ('1000', '인사팀', '서울');
 INSERT INTO dept(deptno, deptname, office) VALUES ('1001', '전산팀', '수원');
 INSERT INTO dept(deptno, deptname, office) VALUES ('1002', '전산팀', '수원');
-INSERT INTO dept(deptno, deptname) VALUES ('1003', '영업팀');
+INSERT INTO dept(deptno, deptname) VALUES ('1003', '영업팀');  
 
 -- 실행 완료: 트랜잭션
 COMMIT;
