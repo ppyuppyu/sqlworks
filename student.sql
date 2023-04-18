@@ -38,6 +38,8 @@ INSERT INTO class VALUES ('소프트웨어학과', '02-1234-1234', 'B동 3층');
 INSERT INTO class VALUES ('화학공학과', '02-1234-4567', 'B동 4층');
 INSERT INTO class VALUES ('전기전자공학과', '02-1234-5678', 'B동 5층');
 
+SELECT * FROM tbl_class;
+
 -- 교수 자료 삽입
 INSERT INTO professor(pnumber, pname, major) VALUES (301, '오용철', '데이터베이스');
 INSERT INTO professor(pnumber, pname, major) VALUES (402, '송미영', '화학 개론');
